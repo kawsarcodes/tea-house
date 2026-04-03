@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #FF8938;
+  --color-brand-red: #FF0000;
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+}
+
+.tea-gradient-bg {
+  background: linear-gradient(90deg, #ff8938 0%, #ff0000 100%);
+}
+.tea-gradient-text {
+  background: linear-gradient(90deg, #ff8938 0%, #ff0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body,
+div,
+nav,
+section,
+footer,
+h1,
+h2,
+h3,
+p,
+span {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
